@@ -1,0 +1,121 @@
+
+	
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset ="UTF-8">
+        <meta http-equiv="X-UA-compatible" content= "IE=edge">
+        <meta name="viewport" content="witdh=device-width,initial-scale=1.0">
+        <meta name="description" content="site d'apprentissage du HTML 5 et du CSS3- colombuus surenes">
+        <!--les mots-->
+        <meta name="keywords" content=" premier site,colombbus,suresnes,l'agence suresnes,lagencesuresnes, html 5,css 3">
+        <!-- l'author de la page-->
+        <meta name="author" content="ouahmane mostapha">
+        <title> liens </title>
+        <script src="https://kit.fontawesome.com/d8b0593798.js" crossorigin="anonymous"></script>
+    </head>
+    <body>		
+        <div>
+            <header>
+                <div id="logo">
+                    <img src="img/logo.png" alt=" logo html 5 et css3">
+                </div>
+                <h1> Mon premier site d'apprentissage <br>En HTML 5 et CSS 3 </h1>   
+            </header>
+        </div>
+        
+            <nav>
+             <div>
+                <!-- liens  d'un page à une autre page dans le meme site -->
+                <a href="index.html" title="html 5 css 3 - accueil"> Accueil</a>
+                <a href="texte.html" title="html 5 css 3 - texte"> texte</a>
+                <a href="selecteur.html"  title="html 5 css - ">Sélecteur</a>
+                <a href="image.html" title="html 5 css - "> Image</a>
+                <a href="position.html "  title="html 5 css - "> position</a>
+                <a href="zoning.html" title="html 5 css - ">Zoning</a>
+                <a href="tableau.html" title="html 5 css - ">tableau</a>
+                <a href="liste.html" title="html 5 css -listes ">liste</a>
+                <a href="lien.html" title="html 5 css -liens ">lien</a>
+                <a href="formulaire.html" title="html 5 css - ">formulaire</a>
+                <a href="multimédia.html" title="html 5 css - ">Multimédia</a>
+                <a href="animtion.html" title="html 5 css - ">Animtion</a>
+                <a href="recaptitulatif.html" title="html 5 css - ">Récaptitulatif</a>
+             </div>
+            </nav>
+            <main>
+                <h2>les liens- <i class="fas fa-anchor"></i></h2>
+                <div>
+                    <!--a*3= donne trois liens-->
+                    <!-- premier type de  liens hyper texte une ancre a/ le lien vers lencre attribue ex."#liens"/b l'ance-->
+                        <a href="#liens">les liens</a>
+                        <a href="#menu">un menu</a>
+                        <a href="#menu-deroulant">un menu déroulant</a>
+                </div>
+                <hr>
+               <!--  les trois liens suivent vers sites externes -->
+                <section id="liens"><h3>liens</h3>
+                    
+                   <!-- : un liens vres le site  avec target -_blank pour ouvrir dans un nouvel onglet -->
+                    <a href="https://codepen.io/" target="_blank" title="Code Pen">Code Pen pour s'entrainer au code </a>
+                    <a href="https://www.lemonde.fr/" target="_blank" title="Le Monde">Le Monde</a>
+                    <a href="docs/planning-suresnes.pdf">Télechargez le planning du chantier de suresnes</a>
+                    <!-- pou imprimer la page  -->
+                    <a href="#" onclick="window.print()"> Imprimer la page</a>
+            </section>
+
+                <section id="menu">
+                    <nav>
+                        <!-- ul>li*4>a -->
+                        <ul>
+                            <!-- ont trouve fréquemment, en code, des navigatois faites  avec un ul ,une liste non-ordonnée  -->
+                            <li><a href="#">Accueil</a></li>
+                            <li><a href="#">parcours</a></li>
+                            <li><a href="#">Réalisation</a></li>
+                            <li><a href="#">contant</a></li>
+                        </ul>
+                      
+
+                    </nav>
+                </section>d
+                  <!-- EX faire  la liste imbririque  -->
+                  <!-- ul>li*5>a -->
+                <section id="menu-deroulant">
+                 <ul>
+                     <li><a href="#" title=" Accueil"> Accueil</a></li>
+                       <li>
+                            <a href="#" title="FORMATION "> FORMATION </a>
+                        <ul>
+                            <li><a href="#" title="Etudiants">Etudiants</a></li>
+                            <li><a href="#" title="Emploi du temps" >Emploi du temps</a></li>
+                            <li><a href="#" title="Recherche d'emploi">Recherche d'emploi</a></li>
+                            <li><a href="#" title="Document">Document</a></li>   
+                        </ul>
+                    </li>
+                    <li><a href="#" title="Information">INFATIONS</a> </li>
+                     <li>
+                           <a href="#" title="COURS ">COURS </a>
+                        <ul>
+                            <li><a href="#" title="Internet">Internet</a></li>
+                            <li><a href="#" title=">HTML/CSS">HTML/CSS</a></li>
+                            <li><a href="#" title="Rrseaux Sociaux">Rrseaux Sociaux </a></li>
+                            <li><a href="#" title="stats">stats </a></li>
+                            <li><a href="#" title="Réferencemnt">Réferencemnt</a></li> 
+                            <li><a href="#" title="Marketing">Marketing</a></li>
+                            <li><a href="#" title="Cahier des charges">Cahier des charges</a></li>
+                            <li><a href="#" title="Photoshop">Photoshop</a></li>
+                          
+                        </ul>
+                    </li>
+                     <li> <a href="#" title="MON CV">MON CV</a></li>
+                   
+                 </ul>
+                </section>
+            </main>
+        <div>
+            <footer>
+                <p> ice le pied de page  </p>
+            </footer>
+        </div>
+
+    </body>
+</html>
