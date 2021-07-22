@@ -1,0 +1,29 @@
+/* style POUR L'EXO 03 */
+body{
+    background-color:black;
+    color: white;
+    font-family: cursive;
+    text-align: center;
+}
+h1{
+    color: blanchedalmond;
+}
+h2{
+    font-family: fantasy;
+    text-align: center;
+}
+p{
+    font-family:serif;
+    background-color :rgb(107, 17, 37)
+}
+/* pour cibler l'élément qui a l'id "travail "j'ecris  #travail */
+#travail{
+    background-color: red;
+    color: white;
+}
+/* pour cibler l'élément qui a la classe "tvacances"j'ecris  .vacances */
+.vacances{
+font-style: italic;
+font-weight: bold;
+color: teal;
+}
