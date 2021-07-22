@@ -1,0 +1,45 @@
+
+
+/* le typos google 
+    font-family: 'Anton', sans-serif;
+
+    font-family: 'Lemonada', cursive;
+
+    font-family: 'Oswald', sans-serif;
+   
+    font google لاستعمال لغات غوعل نقوم بستدعائها من خلال رابط
+    * مثلا هده الخطوط فوق
+*/
+body{
+    background-color: #EEAD64;
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 1px;
+    /* espacment entre les letrres */
+    color: #2980b9;
+}
+h2{
+    font-size: 35px;
+    color:#2c3e50;
+    font-weight: bolder;
+    text-shadow: 1px 1px 2px #aaa;
+    /* ombre portée une propriété qui besoin de 1 ou plusieurs valeurs   */
+}
+ /* tail de l'cone dans le h2 */
+ h2 i{
+     font-size: 100px;
+ }
+h3{
+    font-size: 22px;
+    color:rgb(114, 68, 8);
+    /* text-shadow:لاظهار بعض الضبابية */
+    text-shadow: 1px 1px 2px #aaa;
+}
+/* النصوص:blockquote */
+blockquote{
+    font-family:   'Lemonada', cursive ; 
+}
