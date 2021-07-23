@@ -13,6 +13,7 @@
 body{
     background-color: #EEAD64;
     font-family: 'Oswald', sans-serif;
+    background-image: url('../img/concrete-texture.png');
 }
 h1{
     text-align: center;
@@ -42,4 +43,10 @@ h3{
 /* النصوص:blockquote */
 blockquote{
     font-family:   'Lemonada', cursive ; 
+    font-size: 120% ;
+}
+blockquote i{
+    font-size: 350%;
+    color: chartreuse;
+    vertical-align: middle;
 }
