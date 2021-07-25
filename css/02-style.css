@@ -1,11 +1,11 @@
 
 
 body {
-    background-image: url('../../img/concrete-texture.png');
- }
+    background-color: rgb(250, 195, 75);
+     }
  
  header {
-     background-color: olive;
+     background-color: rgb(156, 214, 132);
  }
  
  nav {
@@ -13,16 +13,16 @@ body {
  }
  
  main {
-     background-color: rgb(19, 160, 73);
+     background-color: rgb(19, 139, 160);
      width: 1200px;
  }
  
  footer {
-     background-color: ghostwhite;
+     background-color: rgb(18, 155, 91);
  }
  
  h2 {
-     background-color: lightblue;
+     background-color: rgb(197, 116, 218);
  }
  
  article {
