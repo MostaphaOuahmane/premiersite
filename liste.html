@@ -1,96 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="site d'apprentissage du HTML 5 et du CSS3- colombuus surenes">
-			<!--les mots-->
-			<meta name="keywords" content=" premier site,colombbus,suresnes,l'agence suresnes,lagencesuresnes, html 5,css 3">
-			<!-- l'author de la page-->
-			<meta name="author" content="ouahmane mostapha">
-			
+    <!--les mots-->
+    <meta name="keywords" content=" premier site,colombbus,suresnes,l'agence suresnes,lagencesuresnes, html 5,css 3">
+    <!-- l'author de la page-->
+    <meta name="author" content="ouahmane mostapha">
+
     <title>Mon premier site d'apprentissage en HTML 5 CSS 3 -textes HTML</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald&display=swap"
+        rel="stylesheet">
     <!-- nous chargeons en CDN (content delivrey network) la typo awesom, bein moins ,la version gratuite ,aui comporte 1+00 icones -->
     <!-- fontAwsesome typos -->
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/d8b0593798.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <header>
-        <div id="logo">
-            <img src="img/logo.png" alt=" logo html 5 et css3">
-        </div>
-        <div id="slogan">
 
-        <h1 > Mon premier site En HTML 5 et CSS 3 </h1>
-        </div>
-        <div id="socail">
-            <a href="https://www.instagram.com/lagencesuresnes/" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="" target="_blank"><i class="fab fa-facebook"></i></a>
-        </div>
-        <div class="clear"></div>
-    </header>
-        <main>
-            <h2>les listes-<i class="fas fa-list-ol"></i></h2>
-            <section>
-                <h3>les listes avec la balise <code>&lt;ul&gt;</code></h3>
-                <h4>les fruites que préfére miredie</h4>
+<body>
+    <div>
+        <header>
+            <div id="logo">
+                <a href="#logo">
+                    <button type="button"><i class="fas fa-arrow-circle-up"></i></button>
+                </a>
+                <img src="img/logo.png" alt=" logo html 5 et css3">
+            </div>
+            <div id="slogan">
+                <h1> Mon premier site En HTML 5 et CSS 3 </h1>
+            </div>
+            <div id="socail">
+                <a href="https://www.instagram.com/lagencesuresnes/" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <div class="clear"></div>
+        </header>
+        <!-- fin header  -->
+    </div>
+    <main>
+        <h2>les listes-<i class="fas fa-list-ol"></i></h2>
+        <section>
+            <h3>les listes avec la balise <code>&lt;ul&gt;</code></h3>
+            <h4>les fruites que préfére miredie</h4>
+            <ul>
+                <li> raisin</li>
+                <li>orange</li>
+                <li>ananas</li>
+            </ul>
+            <h3>les listes avec la balise <code>&lt;ol&gt;</code></h3>
+            <p> les fruites dans l'ordre de préférence</p>
+            <ol>
+                <li>orange</li>
+                <li>ananas</li>
+                <li>raisin</li>
+            </ol>
+            <h3> les listes emboitéés</h3>
+            <ul>
+                <li>Antarctique</li>
+                <li>Afrique</li>
                 <ul>
-                    <li> raisin</li>
-                    <li>orange</li>
-                    <li>ananas</li>
+                    <li>Afrique du sud</li>
+                    <li>Algérie</li>
+                    <li>Cameron</li>
+                    <li>Maroc</li>
                 </ul>
-                <h3>les listes avec la balise <code>&lt;ol&gt;</code></h3>
-                <p> les fruites dans l'ordre de préférence</p>
-                <ol>
-                    <li>orange</li>
-                    <li>ananas</li>
-                    <li>raisin</li>
-                </ol>
-                <h3> les listes emboitéés</h3>
+                <li>Amérique</li>
                 <ul>
-                    <li>Antarctique</li>
-                    <li>Afrique</li>
-                    <ul>
-                        <li>Afrique du sud</li>
-                        <li>Algérie</li>
-                        <li>Cameron</li>
-                        <li>Maroc</li>
-                    </ul>
-                    <li>Amérique</li>
-                    <ul>
-                        <li>argientine</li>
-                        <li>Brazil</li>
-                        <li>Maxican</li>
-                    </ul>
-                    <li>Asie</li>
-                    <ul>
-                        <li>Philepien</li>
-                        <li>Japon</li>
-                        <li>Chine</li>
-                    </ul>
-                    <li>Europe</li>
-                    <ul>
-                        <li>France</li>
-                        <li>Reussi</li>
-                        <li>Spagne</li>
-                    </ul>
-                    <li>Océanie</li>
-                    <ul>
-                        <li>Sud Arabic</li>
-                        <li>kwit</li>
-                        <li>Qatar</li>
-                    </ul>
+                    <li>argientine</li>
+                    <li>Brazil</li>
+                    <li>Maxican</li>
                 </ul>
-            </section>
-        </main>
-        <footer>
-            <p>&copy;l'agence Surenes 2021 </p>
-        </footer>
-    
+                <li>Asie</li>
+                <ul>
+                    <li>Philepien</li>
+                    <li>Japon</li>
+                    <li>Chine</li>
+                </ul>
+                <li>Europe</li>
+                <ul>
+                    <li>France</li>
+                    <li>Reussi</li>
+                    <li>Spagne</li>
+                </ul>
+                <li>Océanie</li>
+                <ul>
+                    <li>Sud Arabic</li>
+                    <li>kwit</li>
+                    <li>Qatar</li>
+                </ul>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;l'agence Surenes 2021 </p>
+    </footer>
+
 </body>
+
 </html>
