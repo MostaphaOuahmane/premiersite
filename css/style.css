@@ -1,10 +1,12 @@
+/* les styles pour le premierSITE Patrick Isola chantier Suresnes 2021-2022 */
 @charset "UTF-8";
 /* reset simple  */
 /* l'étoile signifie tout all */
-/* si non on peut utiliser la reset d'E ric eric/tools */
-*{
+/* sinon on peut utiliser le reset d'Eric Meyer qui se trouve à cette adresse : http://meyerweb.com/eric/tools/css/reset/ */
+* {
     box-sizing: border-box;
 }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,142 +26,302 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
- }
-    /* fin de reset simple */
-/* le typos google 
-    font-family: 'Anton', sans-serif;
-    font-family: 'Lemonada', cursive;
+}
+
+/* fin du reseet simple */
+
+/* les typos Google Font utilisées dans le site  */
+/* Anton, Oswald, Lemonada  */
+
+/* font-family: 'Anton', sans-serif;
+font-family: 'Lemonada', cursive;
+font-family: 'Oswald', sans-serif; */
+
+body {
     font-family: 'Oswald', sans-serif;
-    font google لاستعمال لغات غوعل نقوم بستدعائها من خلال رابط
-    * مثلا هده الخطوط فوق
-*/
-body{
-    background-color: #EEAD64;
-    font-family: 'Oswald', sans-serif;
+    /* image de fond  */
+    /* chemin depuis le fichier style.css ; on sort du dossier css puis on rentre dans le dossier img : ../ le chemin pour sortir d'un dossier */
     background-image: url('../img/concrete-texture.png');
 }
-h1{
-    text-align: center;
-    font-size: 30px;
+
+/* les titres du site */
+
+h1 {
+    /* typo google */
     font-family: 'Anton', sans-serif;
+    /* taille de typo  */
+    font-size: 40px;
+    /* espacement entre les lettres */
     letter-spacing: 1px;
-    /* espacment entre les letrres */
+    /* couleur réf. héxadécimale */
     color: #2980b9;
+    text-align: center;
 }
-h2{
+
+h2 {
     font-size: 35px;
-    color:#2c3e50;
-    font-weight: bolder;
+    color: #2c3e50;
+    /* épaisseur des caractères */
+    font-weight:bolder;
+    /* text-shadow ou ombre portée, une propriété qui a besoin de 1 ou plusieurs valeurs cf. : https://developer.mozilla.org/fr/docs/Web/CSS/text-shadow*/
     text-shadow: 1px 1px 2px #aaa;
-    /* ombre portée une propriété qui besoin de 1 ou plusieurs valeurs   */
 }
- /* tail de l'cone dans le h2 */
- h2 i{
-     font-size: 150%;
- }
-h3{
+
+/* taille de l'icône dans les h2  */
+/* i enfant de h2 ; l'icône sera 150% plus grande que la taille d'origine */
+h2 i {
+    font-size: 150%;
+}
+
+h3 {
     font-size: 22px;
-    color:rgb(114, 68, 8);
-    /* text-shadow:لاظهار بعض الضبابية */
+    color: #2c3e50;
     text-shadow: 1px 1px 2px #aaa;
 }
-/* النصوص:blockquote */
-blockquote{
-    font-family:   'Lemonada', cursive ; 
-    font-size: 120% ;
+
+h4 {
+    text-align: center;
 }
-blockquote i{
+
+p {
+    padding: 5px;
+}
+
+blockquote {
+    font-family: 'Lemonada', cursive;
+    font-size: 80%;
+}
+
+blockquote i {
     font-size: 350%;
-    color: chartreuse;
+    color: #6acafc;
     vertical-align: middle;
 }
-/* a compléter position */
-header{
+
+/* A compléter position */
+
+/* header */
+header {
     height: 175px;
-    background-color:#67dfa3;
-    /* dans le header, les trois zones suivantes flottent toutes les trois à gauche elles ont une largeur en %, donc une largeur relatives à l'élément parent donc header */
+    background-color: #719bc5;
+}
+
+/* dans le header, les trois zones suivantes flottent toutes les trois à gauche elles ont une largeur en %, donc une largeur relatives à l'élément parent donc header */
 /* la propriété float sert à casser le flux du html */
-    /* dans le header les trois zones suivantes toutes les trois à gouche elles ont une largeur en %  */
+#logo {
+    /* 1 la boite  */
+    width: 25%;
+    float: left;
+    padding: 15px;  /* 2 marge intérieure de l'élément padding = rembourrage */
+    /* 3 aspect de la boite */
+    background-color: #719bc5;
+    /* 4 texte */
+    text-align: center;
 }
-#logo{
-    width: 25%;   /* la boite */
-    float: left;    /* aspect de la boite */
-    padding: 15px;
-    text-align: center;    /* le texte */
-}
-#slogan{
+
+#slogan {
     width: 50%;
     float: left;
     padding-top: 50px;
+    background-color: #719bc5;
 }
-#socail{
-    width: 20%;
-    float: left;
-}
-#socail i{ 
-    /* je change la nateure de l'élément i qui est de type inline , en un élément de type block  */
-    display: block;
-     padding: 15px 30px 0 0 ;
-     font-size: 35px;
-     text-align: right;
 
- }
- header a {
-     text-decoration: none;
-     color: rgb(34, 49, 112);
- }
- /* debut de nav  */
- nav {
+#social {
+    width: 25%;
+    float: left;
+    background-color: #719bc5;
+}
+
+#social i { /* ici on cible un élément i dont le parent à l'id "social" */
+    display: block; /* je change la nature de l'élément i qui est de type inline, en un élément de type block */
+    padding: 15px 30px 0 0;
+    font-size: 30px;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: #10828c;
+}
+
+/* fin header */
+/* la nav, la navigation */
+nav {    
     height: 70px;
     padding: 15px;
-    border-bottom: 8px solid rgb(16, 163, 156);
-     background-color: deepskyblue;
+
+    background-color: #2980b9;
+    /* une bordure en bas */
+    border-bottom: 8px solid #6acafc;  
+
     text-align: center;
- }
- nav a {
-     margin: 10px;
-     padding: 2px,10px;
-     background-color: dodgerblue;
-     border: 2px solid fuchsia;
-     font-family:Verdana, Geneva, Tahoma,sans-serif;
-     border-radius: 10px 0;
-     color: #000;
-     text-decoration: none;
-     font-size: 16px;
-     transition: 0.5s;
- }
- /* hover une pseud-class-un effet au sur val du cuseur */
- nav a:hover {
-    background-color: rgb(245, 243, 119);
-    color: rgb(74, 38, 122);
- }
- main{
-     width: 1100px;
-     margin: 0 auto;
-     background-color :sandybrown;
-      }
- aside {
-     height: 250px ;
-     width: 30%;
-     float: left;
-     background-color: rgb(231, 209, 192);
-    }
- #Accueil{
-     height: 70%;
-     float: left;
- }
-section{
+}
+
+nav a {
+    margin: 10px;
+    padding: 2px 10px;
+
+    background: #6acafc;
+    border: 2px solid #fff;
+    /* arrondi des angles des bordures */
+    /* https://css3generator.com/  */
+    border-radius: 10px 0;
+
+    font-family: 'Oswald', sans-serif;
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 16px;
+    /* transition sur le nav a, marche avec le a :hover */
+    transition: 0.5s;
+}
+
+nav a:hover {
+    /* a :hover une pseudo-class un effet au survol du curseur */
+    background-color: #a6d6c3;
+    color: #fff;
+}
+
+.active {
+    background-color: #a6d6c3;
+    color: orangered;
+}
+
+/* fin nav */
+
+/* les zones principales */
+main {
+    width: 1100px;
+    margin: 0 auto;
+    /* une couleur en rgba : red green blue et avec un canal "alpha" on joue sur la transparence de la couleur rgb */
+    background-color: rgba(178, 178, 178, 0.178);
+}
+
+aside {
+    height: 250px;
+    width: 30%;
+    padding: 10px;
+    float: left;
+    background-color: #a6d6c3;
+}
+
+#accueil {
+    width: 70%;
+    float: left;
+}
+
+section {
     margin-top: 50px;
     padding: 20px;
 }
-footer{
+
+footer {
     height: 50px;
     margin-top: 10px;
-   background-color:  rgb(16, 163, 156);
+    padding: 10px;
+    background-color: #2980b9;
+
     text-align: center;
-    color: rgb(64, 105, 17);
+    color: #fff;
 }
-/*  la classe clear pour retablaire le float */
-.clear{
+/* fin des zones principales de la page */
+
+/* le retour en haut de page */
+
+button {
+    position: fixed; /* le bouton est fixé */
+    bottom: 40px; /* à 40px du bas de la page */
+    right: 20px; /*  et à 20px de la droite de la page */
+
+    border: none; /* le bouton n'a pas de bordure */
+    background: transparent; /* il est transparent */
+
+    font-size: 350%;
+    color: #2c3e50;
+}
+
+.selection p{/* la page sélecteur */
+    margin-bottom: 5px;
+    color: greenyellow;
+    background-color: hotpink;
+}
+.selection p:first-of-type{/* 1er enfant du type désigné  */
+    background-color: indianred;
+}
+.selection p:last-of-type{
+    background-color: rgb(115, 174, 214);
+    width: 300px;
+}
+.selection p:nth-of-type(4), p:nth-of-type(6){
+    background-color: peru;
+    color: snow;
+}
+/* 
+.selection *:last-child{   ciblon tous  derniers enfants des les élments  dans la class selection 
+    font-size: 50px; 
+}
+*/
+
+.selection .zone-a{
+    color: rgb(165, 23, 165);
+}
+.selection .zone-b{
+    color: rgb(201, 191, 57);
+}
+.selection div:not(.zone-b){
+    font-size: 68px;
+    background-color: rgb(247, 247, 247);
+}
+.selection .zone-b .texte-orange{
+    font-size: 35px;
+    color: orangered;
+}
+.selection #zone-d span{
+    color: orchid;
+    font-size: 30px;
+    font-style: italic;
+}
+
+
+ /* pages des images */
+ .img-fond{
+     margin-bottom: 20px;
+ background: #000 url('../img/fond.jpg') no-repeat;
+ background-size: cover;
+ }
+.img-fond p {
+    width: 75%;
+    margin: 200px auto 250px auto;
+    padding: 20px;
+
+    background:paleturquoise ;
+    border-radius: 10px;
+    font-size: 120%;
+}
+img[src="img/toureiffel.jpg"] {
+    display: block;
+    padding: 20px;
+    margin: auto;
+    background-color: rgb(2, 2, 2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .clear { /* la classe clear pour rétablir le flux  */
     clear: both;
-}
+ }
