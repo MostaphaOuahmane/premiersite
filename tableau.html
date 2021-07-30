@@ -10,7 +10,7 @@
 	<meta name="keywords" content=" premier site,colombbus,suresnes,l'agence suresnes,lagencesuresnes, html 5,css 3">
 	<!-- l'author de la page-->
 	<meta name="author" content="ouahmane mostapha">
-	<title> Mon premier site en HTML 5 CSS 3 -textes HTML</title>
+	<title> Mon premier site en HTML 5 CSS 3 -tableau HTML</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald&display=swap"
@@ -21,7 +21,7 @@
 
 <body>
 	<div>
-		< <header>
+		<header>
 			<div id="logo">
 				<!-- le bouton et le lien vers l'ancre #logo -->
 				<a href="#logo">
@@ -42,15 +42,14 @@
 		</header>
 		<!-- fin header  -->
 	</div>
-	<div>
 		<nav>
-			<a href="index.html" title="html 5 css 3 - accueil"  class="active"> Accueil</a>
+			<a href="index.html" title="html 5 css 3 - accueil"  > Accueil</a>
 			<a href="texte.html" title="html 5 css 3 - texte"> texte</a>
 			<a href="selecteur.html" title="html 5 css - ">Sélecteur</a>
 			<a href="image.html" title="html 5 css - "> Image</a>
 			<a href="position.html " title="html 5 css - "> position</a>
 			<a href="zoning.html" title="html 5 css - ">Zoning</a>
-			<a href="tableau.html" title="html 5 css - ">tableau</a>
+			<a href="tableau.html" title="html 5 css - " class="active">tableau</a>
 			<a href="liste.html" title="html 5 css -listes ">liste</a>
 			<a href="lien.html" title="html 5 css -liens ">lien</a>
 			<a href="formulaire.html" title="html 5 css - ">formulaire</a>
@@ -58,43 +57,56 @@
 			<a href="animtion.html" title="html 5 css - ">Animtion</a>
 			<a href="recaptitulatif.html" title="html 5 css - ">Récaptitulatif</a>
 		</nav>
-	</div>
-	<div>
 		<main>
-			<aside>
-				<!-- aside: la partie lateral de section principale-->
-				<h2>Accueil <i class="fas fa-igloo"></i></h2>
-				<p> ice, la balise<code>&lt;aside&gt;</code> mais il n'y a que ce paragraphe </p>
-				<p> Et cette dans laquelle je vous donne la raccourci pour ouvrir un fichier dans logiciel <kbd> CTRL
-						+O</kbd> </p>
-			</aside>
-			<section id="Accueil">
-				<div>
-					<!--div: zon supplémentaire de cotenu-->
-					<h2> ice un titre niveau 2 </h2>
-					<p> ice le contenu principal. un p dans la balise <code> &lt;section&gt; </code></p>
-					<h3> ice un titre de niveau 3 </h3>
-					<h4> ice un titre de niveau 4 </h4>
-					<h5> ice un titre<span> de niveau</span> 5</h5>
-					<h6> ice un titre de niveau 6 </h6>
-				</div>
-				<!-- span :zone supplémentaire de contenu , span est une balise in line-->
-				<h2> ice un titre de<span> niveau 2 dans span</span></h2>
-				<article>
-					<h2>ice un titre neveau 2 dans article</h2>
-					<a href="#"> Récap des points de CSS</a>-
-					<a href="texte.html"> Récap des points de texte html</a>
-				</article>
-			</section>
-			<div class="clear"></div>
+		 <section class="tableau">
+             <h2>un tableau <i class="fas fa-table"></i></h2>
+             <table>
+                 <caption> <i class="fas fa-plane"></i>vols-> Paris Roma</caption>
+                <thead>
+                    <!-- thead l'en téte de tableau -->
+                    <tr>
+                        <!--  tr les rangé"s du tableau -->
+                        <!--  td les données du tableau, les nombre de cellules  -->
+                        <td> jours</td>
+                        <td> Lundi</td>
+                        <td> Mardi</td>
+                        <td> Dimanche</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="2"> Air France </td>
+                        <td> Départ 10 h-Arrivée 13 h  </td>
+                        <td> Départ 10 h-Arrivée 13 h  </td>
+                        <td> Départ 10 h-Arrivée 13 h   </td>
+                    </tr>
+                    <tr>
+                    
+                        <td>  200 € </td>
+                        <td> 200 € </td>
+                        <td> 200 € </td>
+                    </tr>
+                    <tr>
+                        <!-- rowspan bach njm3 jouj khant fkhana whda chouf achn dert f khana dyl air france ola khana dyl alitalia -->
+                        <td rowspan="2"> Alitalia  </td>
+                        <td> Départ 10 h-Arrivée 11 h 55  </td>
+                        <td> Départ 10 h-Arrivée 11 h  55 </td>
+                        <td> Départ 10 h-Arrivée 11 h  55 </td>
+                    </tr>
+                    <tr>
+                      
+                        <td> 250  </td>
+                        <td> 300  </td>
+                        <td> 150  </td>
+                    </tr>
+                </tbody>
+             </table>
+         </section>
 		</main>
 		<!-- fin de main -->
-	</div>
-	<div>
 		<footer>
 			<p>&copy;l'agence Surenes 2021 </p>
 		</footer>
-	</div>
 </body>
 
 </html>

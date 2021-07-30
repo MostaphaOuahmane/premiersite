@@ -303,15 +303,116 @@ img[src="img/toureiffel.jpg"] {
     margin: auto;
     background-color: rgb(2, 2, 2);
 }
+.au-centre{
+    text-align: center;
+}
+.img-golden{
+    margin: 20px;
+    border: 5px solid peru ;
+    box-shadow: 4px 4px 4px peachpuff;
+    transition: 1s;
+}
+.img-golden:hover{
+    transition: rotate(-7deg);
+    border: 15px solid palegoldenrod;
+}
+.rotation-360:hover{
+    transform: rotate(-360deg);
+}
+/* fin page des images */
 
+/* debut des tableau */
+.tableau table, .tableau td{
+    border: 2px solid black;
+}
+.tableau table{
+    width: 80%;
+    margin: auto;
+    /* padding: 5px; */
+    border-collapse: collapse;
+}
+.tableau td {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+}
+.tableau thead{
+    background-color: cadetblue;
+    border: 5px solid pink;
+ 
+}
+.tableau caption{
+    height: 50px;
+    padding-left: 5px;
+    background: powderblue;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(201, 191, 57);
+}
+/* syle page les listes */
 
+ul.fruits{ 
+    /* pou fair tous les types denpuces faites Ctrl+Espace */
+    list-style:none;
 
-
-
-
-
-
-
+}
+ul.fruits li{
+ display: inline;
+ margin: 15px;
+}
+li .far{
+    font-size: 90%;
+    color: orange;  
+}
+li .far:hover {
+    font-size: 150%;
+    color: orchid;
+}
+ol.fruits-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style-type: upper-roman;    
+}
+.imbriquee, .imbriquee ul {
+    padding-left: 50px;
+    
+}
+.imbriquee {
+    cursor: pointer;
+}
+.imbriquee ul {
+    display: none;
+}
+.affiche:hover ul {
+    display: block;
+}
+.imbriquee li ul li:hover{
+    display: inline;
+    font-size: 200%;
+    background-color: pink;
+    box-shadow: 5px 10px 10px orangered;
+    transition-duration: 1s;
+}
+/* page de liens */
+.ancre{
+    text-align: center;
+    padding: 100px;
+}
+.ancre a {
+    margin: 8px;
+    padding: 5px 10px;
+    background: rgb(122, 59, 80);
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 3px rgb(230, 189, 78);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ancre a:hover{
+    box-shadow: none;
+    text-shadow: 1px 5px 5px purple;
+    transition-duration: 0.5s;
+}
 
 
 
