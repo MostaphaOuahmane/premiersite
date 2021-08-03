@@ -1,0 +1,27 @@
+.tableau table, .tableau td{
+    border: 2px solid rgb(10, 10, 10);
+}
+.tableau table{
+    width: 80%;
+    margin: auto;
+     padding: 5px;
+    border-collapse: collapse;
+}
+.tableau td {
+    padding: 20px;
+    text-align: center;
+    vertical-align:baseline;
+}
+.tableau thead{
+    background-color: pink;
+    border: 5px  rgb(0, 0, 0);
+ 
+}
+.tableau caption{
+    height: 50px;
+    padding-left: 5px;
+    background: rgb(197, 222, 223);
+    font-size: 25px;
+    text-align: center;
+    color: rgb(85, 50, 7);
+}
