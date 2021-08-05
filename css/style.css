@@ -491,9 +491,54 @@ textarea {
 label{
     margin: 20px 10px;
 }
+/* css multimedia */
+/*  pour le vidéo youtube*/
+iframe[src=src="https://www.youtube-nocookie.com/embed/vACZA9dGvV4"] {
+  width: 100%;
+        }
+/* pour tous les iframes */
+iframe[allowfullscreen]{
+    width: 100%;
+}
+.bordure{
+        width: 500px;
+        /* margin: 0 auto; */
+        padding: 10px; 
+        border: 10px solid #2980b9 ;
+    }
+/*  pur la vidéo de fond */
+.video-fond{
+        padding-left: 0;
+        padding-right: 0;
+}
+.video-fond video{
+        position: absolute;
+        width: 80%;
+        z-index: 1;
+        /* l'empilement, le z-index : le 1 est le niveau le plus bas dans l'ordre d'empilement : le z-order */
+}
+.video-texte {
+        position: relative;
+        /* psition relative parmet à décaler un élément par rapport à sa posiotion normal */
+        width: 100%;
+        height: 500px;
+        /* border:  10px solid palevioletred; */
+}
+.video-fond p {
+        position: absolute;
+        z-index: 2;
+        width: 500px;
+        margin: auto;
+        left: 225px ;
+        top: 150px;
+        padding: 20px;
+        border-radius: 15px;
+      
+        background: peru;
+        text-align: center;
+        font-size: 120%;
 
-
-
+}
 
 
 
