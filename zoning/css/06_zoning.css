@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(248, 250, 248);
+    background-image: url(../../img/concrete-texture.png);
+}
+main{
+    width: 80%;
+    text-align: center;
+    background-color: #ffdab9;
+    margin: auto;
+}
+section{
+    width: 50%;
+    float: left;
+    min-height: 500px;
+}
+#g{
+    background-color: #ffc0cb;
+    color: black;
+
+}
+.droit{
+    background-color:#afeeee;
+    color: black;
+
+}
+footer{
+    width: 100%;
+    background-color: #90ee90;
+}
+.clear{
+    clear: both;
+}

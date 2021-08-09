@@ -566,3 +566,36 @@ iframe[allowfullscreen]{
 .clear { /* la classe clear pour rétablir le flux  */
     clear: both;
  }
+ 
+ /* style zonin 3 */
+ #zoning_3{
+    width: 800px;
+    margin: auto;
+ }
+
+ #zoning_3 section{
+    width: 50%;
+    float: left;
+    min-height: 500px;
+}
+
+#zoning_3 .gauche{
+    background-color: #ffc0cb;
+    color: black;
+}
+
+#zoning_3 .droite{
+    background-color:#afeeee;
+    color: black;
+}
+
+#zoning_3 footer {
+    margin: 0;
+}
+
+#zoning_3 footer {
+    width: 100%;
+    height: 100px;
+    background-color: #90ee90;
+}
+
