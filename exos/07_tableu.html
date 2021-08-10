@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> tableau HTML mes magasins préférés</title>
+    <style>
+        body{
+            background-color:lightgray;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        main {
+            width: 80%;
+            background-color:lightgreen;
+            margin: auto;
+            padding: 10px;
+        }
+        table.adresses {
+            margin: auto;
+            width: 80%;
+            padding: 10px;
+            border-collapse: collapse;
+        }
+        table.adresses, .adresses td {
+            border: 1px solid rgb(17, 17, 16);
+        }
+        .adresses caption{
+            background-color: sienna;
+            height: 60px;
+            line-height: 60px;
+        }
+        .adresses thead{
+            background-color: #6a5acd;
+            font-weight: bold;
+        }
+     
+        .adresses td {
+            padding: 10px;
+        }
+        .adresses tr:nth-child(odd):not(:only-child){
+            background-color: tan;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>tableau HTML mes magasins préférés</h1>
+    <main>
+        <table class="adresses">
+            <caption> Adress//Fournisseurs</caption>
+            <thead>
+                <tr>
+                    <th>cite</th>
+                    <th>contacts</th>
+                    <th>pays</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>le paind des amis</td>
+                    <td>MARIA DURC</td>
+                    <td>France</td>
+                </tr>
+                <tr>
+                    <td>tos vinos</td>
+                    <td>josé santos</td>
+                    <td>Espangne</td>
+                </tr>
+                <tr>
+                    <td>kangoroo and cie</td>
+                    <td>mike mendel</td>
+                    <td>Australie</td>
+                </tr>
+                <tr>
+                    <td>Twinning</td>
+                    <td>Helen Spike</td>
+                    <td>Royaume-uni</td>
+                </tr>
+                <tr>
+                    <td>Cycle laurent</td>
+                    <td>Pierrre laurent</td>
+                    <td> France</td>
+                </tr>
+                <tr>
+                    <td>Santin</td>
+                    <td> jacomo Santini</td>
+                    <td> Italie</td>
+                </tr>
+            </tbody>
+            
+    </table>
+     <hr>
+     <table>
+        <caption>tableau 2</caption>
+        <tr>
+            <td>texte 1</td>
+            <td>texte 2</td>
+            <td>texte 3</td>
+            <td>texte 4</td>
+        </tr>
+        <tr>
+            <td>texte 1</td>
+            <td>texte 2</td>
+            <td>texte 3</td>
+            <td>texte 4</td>
+        </tr>
+        <tr>
+            <td>texte 1</td>
+            <td>texte 2</td>
+            <td>texte 3</td>
+            <td>texte 4</td>
+        </tr>
+        <tr>
+            <td>texte 1</td>
+            <td>texte 2</td>
+            <td>texte 3</td>
+            <td>texte 4</td>
+        </tr>
+    </table>
+    </main>
+</body>
+</html>

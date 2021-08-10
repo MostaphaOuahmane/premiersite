@@ -598,4 +598,63 @@ iframe[allowfullscreen]{
     height: 100px;
     background-color: #90ee90;
 }
+/* ZONING 4 */
+#zoning-7{
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ff4500;
+}
+#zoning-7 p{
+    margin: auto;
+}
+
+#zoning-7 header { 
+    text-align: center;
+    height: 80px;
+    background-color: #40a497;
+}
+
+#zoning-7 nav {
+    height: 50px;
+    background-color: #9a40a4;
+  
+}
+#zoning-7 section{
+    height: 600px;
+    margin: 20px;
+    background-color: pink;
+}
+
+#zoning-7 .green {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: teal;
+}
+#zoning-7 .yallow {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: rgb(189, 218, 30);
+}
+
+#zoning-7 .bleu {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: blue;
+}
+
+#zoning-7.nonbleu {
+    width: 50%;
+    height: 300px;
+    float: left;
+    background-color: blueviolet;
+ } 
+ 
+ #zoning-7 footer {
+    height: 80px;
+    background-color: #40a497;
+}
+
 
