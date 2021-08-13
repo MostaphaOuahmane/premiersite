@@ -541,12 +541,12 @@ iframe[allowfullscreen]{
 }
 /* style zoning */
 /* style zoning 1 */
-#zoning-1{
+#zoning-1 {
     width: 800px;
     margin: auto;
     color: #fff;
 }
-#zoning-1 header{
+#zoning-1 header {
     text-align: center;
 }
 #zoning-1 aside{
@@ -554,7 +554,7 @@ iframe[allowfullscreen]{
     width: 20%;
     background-color: blueviolet;
 }
-#zoning-1 section{
+#zoning-1 section {
     height: 525px;
     width: 80%;
     float: left;
@@ -568,23 +568,23 @@ iframe[allowfullscreen]{
  }
  
  /* style zonin 3 */
- #zoning_3{
+ #zoning_3 {
     width: 800px;
     margin: auto;
  }
 
- #zoning_3 section{
+ #zoning_3 section {
     width: 50%;
     float: left;
     min-height: 500px;
 }
 
-#zoning_3 .gauche{
+#zoning_3 .gauche {
     background-color: #ffc0cb;
     color: black;
 }
 
-#zoning_3 .droite{
+#zoning_3 .droite {
     background-color:#afeeee;
     color: black;
 }
@@ -604,7 +604,8 @@ iframe[allowfullscreen]{
     margin: 0 auto;
     background-color: #ff4500;
 }
-#zoning-7 p{
+
+#zoning-7 p {
     margin: auto;
 }
 
@@ -614,12 +615,12 @@ iframe[allowfullscreen]{
     background-color: #40a497;
 }
 
-#zoning-7 nav {
+#zoning-7 nav  {
     height: 50px;
     background-color: #9a40a4;
   
 }
-#zoning-7 section{
+#zoning-7 section {
     height: 600px;
     margin: 20px;
     background-color: pink;
@@ -656,5 +657,85 @@ iframe[allowfullscreen]{
     height: 80px;
     background-color: #40a497;
 }
+/* page position */
+.centre {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: #afeeee;
+}
+.absolute {
+    width: 100px;
+    height: 100px;
+    top: 25%;
+    left: 10%;
+    position: absolute;
+    background-color: yellow;
+}
+/* div en position relative */
+.bordure-2 {
+    border:1px solid green;
+
+}
+.relative {
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+/* cette div est en position absolute dans un élément rélative et sa position est absolute par rapport à cet élément */
+.relative div {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+}
 
 
+.trente {
+    font-size: 22px;
+    width: 30%;
+    background-color: hotpink;
+    padding: 20px;
+    color: indigo;
+
+}
+.cinquante {
+    font-size: 22px;
+    width: 50%;
+    background-color: lawngreen;
+    padding: 20px;
+    color: lightcyan;
+}
+.cent {
+    font-size: 22px;
+    width: 100%;
+    background-color: lightskyblue;
+    padding: 20px;
+    color: green;
+
+}
+
+.float {
+    float: left;
+    height: 170px;
+    width: 170px;
+    margin: 10px;
+
+    border: 2px solid darkred;
+    background: #FFF1A8;
+    text-align: center;
+    font-size: 25px;
+}
+
+.dernier-carre {
+    height: 170px;
+    width: 170px;
+    margin: 10px;
+
+    border: 2px solid darkred;
+    background: #FFF1A8;
+    text-align: center;
+    font-size: 25px;
+}
