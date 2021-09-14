@@ -139,7 +139,7 @@ header {
     text-align: right;
 }
 
-header a {
+header nav a {
     text-decoration: none;
     color: #10828c;
 }
@@ -184,6 +184,11 @@ nav a:hover {
 .active {
     background-color: #a6d6c3;
     color: orangered;
+}
+h1 {
+    background-color: #32ff32;
+    border: 2px solid black;
+    text-align: center;
 }
 
 /* fin nav */
